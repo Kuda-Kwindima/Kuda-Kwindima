@@ -1,16 +1,60 @@
 ## Hi there 👋
 
-<!--
-**Kuda-Kwindima/Kuda-Kwindima** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hi, I'm Kudakwashe Kwindima
 
-Here are some ideas to get you started:
+Aspiring Data Engineer building real-world data pipelines and analytics systems.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Currently transitioning into tech from a background in accounting and hospitality operations while developing projects focused on retail, hospitality, and financial data systems.
+
+---
+
+## What I'm currently working on
+
+- Retail Demand Forecasting Pipeline
+- Hospitality Procurement & Cost Monitoring Pipeline
+- Transaction Monitoring Pipeline (coming soon)
+
+---
+
+## Skills & Tools
+
+**Languages**
+- Python
+- SQL
+
+**Data & Analytics**
+- Pandas
+- Scikit-learn
+- Data Modeling
+
+**Data Engineering**
+- ETL Pipelines
+- Data Cleaning
+- Data Transformation
+- SQLite / PostgreSQL
+
+**Tools**
+- Git
+- GitHub
+- Docker (learning)
+- Airflow (learning)
+
+---
+
+## Current Learning Focus
+
+- Building end-to-end data pipelines
+- Data warehouse design
+- Pipeline orchestration with Airflow
+- Containerization with Docker
+- Cloud deployment with Azure
+
+---
+
+## Connect with me
+
+LinkedIn  
+https://www.linkedin.com/in/kudakwashe-kwindima
+
+GitHub  
+https://github.com/Kuda-Kwindima
