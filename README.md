@@ -1,5 +1,3 @@
-## Hi there 👋
-
 # Hi, I'm Kudakwashe Kwindima
 
 Aspiring Data Engineer building real-world data pipelines and analytics systems.
