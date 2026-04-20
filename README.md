@@ -1,51 +1,62 @@
 # Hi, I'm Kudakwashe Kwindima
 
-Aspiring Data Engineer building real-world data pipelines and analytics systems.
+Data Engineer building end-to-end data pipelines and analytics systems using Azure, SQL, and Python.
 
-Currently transitioning into tech from a background in accounting and hospitality operations while developing projects focused on retail, hospitality, and financial data systems.
+I design data workflows that ingest raw data, transform it into structured warehouse models (staging, dimensions, facts, marts), and deliver business insights through analytics dashboards.
+
+With a background in accounting and hospitality operations, I focus on solving real-world problems where data supports operational decision-making, cost monitoring, and customer behavior analysis.
 
 ---
 
 ## What I'm currently working on
 
-- Retail Demand Forecasting Pipeline
-- Hospitality Procurement & Cost Monitoring Pipeline
-- Transaction Monitoring Pipeline (coming soon)
+- Instacart Retail Analytics Pipeline  
+  (Azure Data Factory → Azure SQL → Data Warehouse → Power BI)
+
+- Hospitality Procurement & Cost Monitoring Pipeline  
+  (Python + SQL + Price Monitoring Logic)
+
+- Transaction Monitoring Pipeline (in progress)
 
 ---
 
-## Skills & Tools
+## What I build
 
-**Languages**
-- Python
-- SQL
+- End-to-end data pipelines (ingestion → transformation → analytics)
+- Data warehouse models (staging, dimensions, facts, marts)
+- Business-focused analytics (KPIs, dashboards, reporting)
+- Data validation and monitoring systems
 
-**Data & Analytics**
-- Pandas
-- Scikit-learn
-- Data Modeling
+---
+
+## Tech Stack
 
 **Data Engineering**
-- ETL Pipelines
-- Data Cleaning
-- Data Transformation
-- SQLite / PostgreSQL
+- Azure Data Factory
+- Azure SQL Database
+- PostgreSQL
+- Data Warehousing (Star Schema, Marts)
+
+**Languages**
+- Python (Pandas)
+- SQL
+
+**Analytics & BI**
+- Power BI
 
 **Tools**
-- Git
-- GitHub
+- Git & GitHub
 - Docker (learning)
 - Airflow (learning)
 
 ---
 
-## Current Learning Focus
+## Current Focus
 
-- Building end-to-end data pipelines
-- Data warehouse design
-- Pipeline orchestration with Airflow
-- Containerization with Docker
-- Cloud deployment with Azure
+- Scaling data pipelines in the cloud (Azure)
+- Pipeline orchestration
+- Data modeling for analytics
+- Production-ready data systems
 
 ---
 
