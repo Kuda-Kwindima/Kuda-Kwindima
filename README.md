@@ -46,8 +46,8 @@ With a background in accounting and hospitality operations, I focus on solving r
 
 **Tools**
 - Git & GitHub
-- Docker (learning)
-- Airflow (learning)
+- Docker
+- Apache Airflow 
 
 ---
 
