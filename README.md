@@ -15,7 +15,7 @@ With a background in accounting and hospitality operations, I focus on transform
   (Python + SQL + Price Monitoring Logic)
 
 - Credit Risk Monitoring Platform (in progress)
-(PostgreSQL + Airflow + Risk Scoring + Monitoring)
+  (PostgreSQL + Airflow + Risk Scoring + Monitoring)
 
 ---
 
