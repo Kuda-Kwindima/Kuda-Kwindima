@@ -1,10 +1,8 @@
 # Hi, I'm Kudakwashe Kwindima
 
-Data Engineer building end-to-end data pipelines and analytics systems using Azure, SQL, and Python.
+Data Engineer building end-to-end data pipelines, data warehouses, and analytics systems using Azure, PostgreSQL, SQL, and Python.
 
-I design data workflows that ingest raw data, transform it into structured warehouse models (staging, dimensions, facts, marts), and deliver business insights through analytics dashboards.
-
-With a background in accounting and hospitality operations, I focus on solving real-world problems where data supports operational decision-making, cost monitoring, and customer behavior analysis.
+With a background in accounting and hospitality operations, I focus on transforming operational data into actionable business insights through scalable data platforms and reporting solutions.
 
 ---
 
@@ -16,7 +14,8 @@ With a background in accounting and hospitality operations, I focus on solving r
 - Hospitality Procurement & Cost Monitoring Pipeline  
   (Python + SQL + Price Monitoring Logic)
 
-- Transaction Monitoring Pipeline (in progress)
+- Credit Risk Monitoring Platform (in progress)
+(PostgreSQL + Airflow + Risk Scoring + Monitoring)
 
 ---
 
@@ -31,32 +30,41 @@ With a background in accounting and hospitality operations, I focus on solving r
 
 ## Tech Stack
 
-**Data Engineering**
-- Azure Data Factory
-- Azure SQL Database
-- PostgreSQL
-- Data Warehousing (Star Schema, Marts)
+Data Engineering
 
-**Languages**
-- Python (Pandas)
-- SQL
+• Azure Data Factory
+• Azure SQL Database
+• PostgreSQL
+• Apache Airflow
+• Data Warehousing
+• ETL / ELT Pipelines
+• Star Schema Modeling
 
-**Analytics & BI**
-- Power BI
+Programming
 
-**Tools**
-- Git & GitHub
-- Docker
-- Apache Airflow 
+• Python
+• Pandas
+• SQL
+
+Analytics
+
+• Power BI
+
+Tools
+
+• Docker
+• Git
+• GitHub
 
 ---
 
 ## Current Focus
 
-- Scaling data pipelines in the cloud (Azure)
-- Pipeline orchestration
-- Data modeling for analytics
-- Production-ready data systems
+• Cloud Data Engineering (Azure)
+• Workflow Orchestration (Airflow)
+• Data Warehouse Design
+• Data Quality & Monitoring
+• Production Data Pipelines
 
 ---
 
