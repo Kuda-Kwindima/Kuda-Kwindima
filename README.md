@@ -8,24 +8,28 @@ With a background in accounting and hospitality operations, I focus on transform
 
 ## What I'm currently working on
 
-- Instacart Retail Analytics Pipeline  
-  (Azure Data Factory → Azure SQL → Data Warehouse → Power BI)
+**Financial Reconciliation & Exception Monitoring Pipeline**  
+PostgreSQL + Docker + Python + SQL + Prefect + Power BI  
+Multi-channel reconciliation pipeline for hospitality POS transactions, card settlements, cash deposits, guest ledger charges, and corporate receivables.
 
-- Hospitality Procurement & Cost Monitoring Pipeline  
-  (Python + SQL + Price Monitoring Logic)
+**Instacart Retail Analytics Warehouse Pipeline**  
+Azure Data Factory → ADLS → Azure SQL → Data Warehouse → Power BI  
+Analytics warehouse project focused on customer reorder behavior, product performance, and reporting-ready marts.
 
-- Credit Risk Monitoring Platform (in progress)
-  
-  (PostgreSQL + Airflow + Risk Scoring + Monitoring)
+**Hospitality Procurement & Cost Monitoring Pipeline**  
+Python + PostgreSQL + Docker + Airflow  
+Procurement monitoring pipeline that tracks supplier pricing, detects cost increases, and generates operational price alerts.
 
 ---
 
 ## What I build
 
-- End-to-end data pipelines (ingestion → transformation → analytics)
-- Data warehouse models (staging, dimensions, facts, marts)
-- Business-focused analytics (KPIs, dashboards, reporting)
-- Data validation and monitoring systems
+- End-to-end data pipelines from ingestion to analytics
+- PostgreSQL and Azure SQL data warehouse models
+- Staging, warehouse, and mart-layer transformations
+- Financial reconciliation and exception monitoring systems
+- Business KPI dashboards and reporting models
+- Data quality checks and operational monitoring logic
 
 ---
 
@@ -61,11 +65,11 @@ Tools
 
 ## Current Focus
 
-• Cloud Data Engineering (Azure)
-• Workflow Orchestration (Airflow)
-• Data Warehouse Design
-• Data Quality & Monitoring
-• Production Data Pipelines
+- Data Engineering with Python, SQL, PostgreSQL, and Azure
+- Workflow orchestration with Prefect and Airflow
+- Data warehouse and mart design
+- Financial reconciliation and operational analytics
+- Power BI dashboarding and business reporting
 
 ---
 
