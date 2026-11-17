@@ -1,82 +1,68 @@
 # Hi, I'm Kudakwashe Kwindima
 
-Data Engineer building end-to-end data pipelines, data warehouses, and analytics systems using Azure, PostgreSQL, SQL, and Python.
+**Founder and engineer behind [Visit Zimbabwe](https://govisitzimbabwe.com)**, the independent Zimbabwe travel guide. I'm a data engineer who now builds and runs production web platforms end to end, from data pipelines and APIs to the website people use.
 
-With a background in accounting and hospitality operations, I focus on transforming operational data into actionable business insights through scalable data platforms and reporting solutions.
-
----
-
-## What I'm currently working on
-
-**Financial Reconciliation & Exception Monitoring Pipeline**  
-PostgreSQL + Docker + Python + SQL + Prefect + Power BI  
-Multi-channel reconciliation pipeline for hospitality POS transactions, card settlements, cash deposits, guest ledger charges, and corporate receivables.
-
-**Instacart Retail Analytics Warehouse Pipeline**  
-Azure Data Factory → ADLS → Azure SQL → Data Warehouse → Power BI  
-Analytics warehouse project focused on customer reorder behavior, product performance, and reporting-ready marts.
-
-**Hospitality Procurement & Cost Monitoring Pipeline**  
-Python + PostgreSQL + Docker + Airflow  
-Procurement monitoring pipeline that tracks supplier pricing, detects cost increases, and generates operational price alerts.
+My background is in accounting and hospitality operations, so I build for real businesses: correct data, clear rules and systems that keep running.
 
 ---
 
-## What I build
+## What I'm building
 
-- End-to-end data pipelines from ingestion to analytics
-- PostgreSQL and Azure SQL data warehouse models
-- Staging, warehouse, and mart-layer transformations
-- Financial reconciliation and exception monitoring systems
-- Business KPI dashboards and reporting models
-- Data quality checks and operational monitoring logic
+### 🌍 Visit Zimbabwe: [govisitzimbabwe.com](https://govisitzimbabwe.com)
+*Founder · sole engineer · live since 2026 · private codebase*
 
----
+A travel guide to Zimbabwe with 347 human-reviewed places to stay, eat and visit, destination guides, itineraries, an events calendar and an illustrated food guide, in English and French.
 
-## Tech Stack
+- **Curation pipeline:** a PostGIS database with raw → staging → core → publishing schemas, field-level source evidence, reviewed map points and explicit publication decisions
+- **Database-free production:** approved places export to a release file, so the live site has no database to breach or keep alive
+- **Web app:** FastAPI and Jinja, server-rendered, accessible and fast on phones; My Trip saves in the visitor's browser with no account
+- **Delivery:** Docker on Fly.io (Johannesburg) behind Cloudflare; every pull request runs about 380 fast tests, Playwright browser journeys on phone and desktop, and a smoke test of the exact production image
+- **Operations:** a weekly freshness job that flags stale facts and broken links, image and video pipelines with creator credits, privacy-light visitor counts
 
-Data Engineering
+`Python` `FastAPI` `Jinja` `PostgreSQL/PostGIS` `Docker` `Fly.io` `Cloudflare` `GitHub Actions` `Playwright` `ffmpeg`
 
-• Azure Data Factory
-• Azure SQL Database
-• PostgreSQL
-• Apache Airflow
-• Data Warehousing
-• ETL / ELT Pipelines
-• Star Schema Modeling
+### 🛍️ WhatsApp Shop *(paused)*
+*Private*
 
-Programming
+A multi-shop platform where small retailers in Zimbabwe run a shop inside WhatsApp. Customers search, pick sizes, add to a cart and pay with EcoCash, OneMoney or a card through Paynow, all without leaving the chat.
 
-• Python
-• Pandas
-• SQL
+- A Meta WhatsApp Cloud API webhook that answers at once and does the work in the background
+- A product catalogue from an external API with a database cache in front, because every call costs money
+- Pricing rules for currency conversion, markup, transport and clearing fees
 
-Analytics
+`Python` `FastAPI` `PostgreSQL` `Docker` `WhatsApp Cloud API` `Paynow`
 
-• Power BI
+### 📦 Stock expiry tracker
+*Private*
 
-Tools
+A local tool for a multi-outlet hospitality operation. It imports monthly stock workbooks from every outlet, merges product variants with explicit rules and keeps the original evidence. It shows the next expiry dates colour-coded by urgency and exports a formatted Excel register.
 
-• Docker
-• Git
-• GitHub
+`Python` `Excel automation` `Data quality rules`
 
 ---
 
-## Current Focus
+## Data engineering projects
 
-- Data Engineering with Python, SQL, PostgreSQL, and Azure
-- Workflow orchestration with Prefect and Airflow
-- Data warehouse and mart design
-- Financial reconciliation and operational analytics
-- Power BI dashboarding and business reporting
+| Project | What it does | Stack |
+|---|---|---|
+| [Financial reconciliation pipeline](https://github.com/Kuda-Kwindima/financial-reconciliation-pipeline) | Reconciles hospitality POS, card settlements, cash and ledger charges, with exception monitoring | PostgreSQL · Docker · Prefect · Power BI |
+| [Retail analytics on Microsoft Fabric](https://github.com/Kuda-Kwindima/retail-optimization-fabric) | Medallion lakehouse with Data Factory pipelines and Direct Lake reporting | Fabric · OneLake · PySpark · Delta Lake |
+| [Azure retail warehouse](https://github.com/Kuda-Kwindima/azure-retail-data-engineering-pipeline) | Instacart reorder analytics warehouse | ADF · ADLS · Azure SQL · Power BI |
+| [Procurement price monitoring](https://github.com/Kuda-Kwindima/hospitality-procurement-monitoring-pipeline) | Supplier price tracking and cost alerts | Airflow · PostgreSQL · Docker |
+| [Retail price and inventory optimisation](https://github.com/Kuda-Kwindima/retail-price-inventory-optimization) | Demand forecasting and price optimisation | Python · Jupyter |
+| [Credit default risk](https://github.com/Kuda-Kwindima/credit-default-risk-ml) | Classification, calibration and threshold analysis | Python · ML |
 
 ---
 
-## Connect with me
+## Skills
 
-LinkedIn  
-https://www.linkedin.com/in/kudakwashe-kwindima
+- **Web and APIs:** FastAPI, REST APIs, webhooks, server-rendered sites, accessibility, SEO, internationalisation
+- **Data:** PostgreSQL/PostGIS, SQL, data modelling, ETL/ELT, Airflow, Prefect, Azure Data Factory, Microsoft Fabric, Power BI
+- **Delivery:** Docker, Fly.io, Cloudflare, GitHub Actions CI, Playwright testing
+- **Languages:** Python, SQL, JavaScript, HTML/CSS
 
-GitHub  
-https://github.com/Kuda-Kwindima
+---
+
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/kudakwashe-kwindima) · [govisitzimbabwe.com](https://govisitzimbabwe.com)
