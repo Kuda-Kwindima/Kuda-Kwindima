@@ -33,6 +33,20 @@ Procurement monitoring pipeline that tracks supplier pricing, detects cost incre
 
 ---
 
+## Web Development & Deployment
+
+Alongside data engineering, I build and deploy production web applications and APIs end to end.
+
+**Example: [govisitzimbabwe.com](https://govisitzimbabwe.com)**, a live Zimbabwe travel guide I developed ([case study](https://github.com/Kuda-Kwindima/visitzimbabwe-case-study))
+
+- PostgreSQL/PostGIS curation pipeline (raw, staging, core and publishing layers) with source evidence and review steps before data is published
+- FastAPI and Jinja web application, server-rendered and mobile-first, in English and French
+- Docker deployment on Fly.io behind Cloudflare, with a database-free release file for production
+- CI with GitHub Actions on every pull request: about 380 automated tests, Playwright browser tests on phone and desktop, and a smoke test of the production image
+- Scheduled data-freshness and broken-link checks, plus image and video processing pipelines
+
+---
+
 ## Tech Stack
 
 Data Engineering
@@ -50,6 +64,20 @@ Programming
 • Python
 • Pandas
 • SQL
+
+Web & APIs
+
+• FastAPI
+• REST APIs
+• Jinja
+• PostGIS
+
+Testing & Deployment
+
+• Playwright
+• GitHub Actions (CI/CD)
+• Fly.io
+• Cloudflare
 
 Analytics
 
