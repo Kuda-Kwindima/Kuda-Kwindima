@@ -9,7 +9,7 @@ My background is in accounting and hospitality operations, so I build for real b
 ## What I'm building
 
 ### 🌍 Visit Zimbabwe: [govisitzimbabwe.com](https://govisitzimbabwe.com)
-*Founder · sole engineer · live since 2026 · private codebase*
+*Founder · sole engineer · live since 2026 · private codebase · [read the case study](https://github.com/Kuda-Kwindima/visitzimbabwe-case-study)*
 
 A travel guide to Zimbabwe with 347 human-reviewed places to stay, eat and visit, destination guides, itineraries, an events calendar and an illustrated food guide, in English and French.
 
